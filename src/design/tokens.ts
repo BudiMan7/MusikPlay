@@ -1,0 +1,43 @@
+export const DESIGN_TOKENS = {
+  colors: {
+    dark: {
+      background: '#090A10',
+      surface: '#191B25',
+      glassLayer: 'rgba(41, 44, 58, 0.55)',
+      glassBorder: 'rgba(255, 255, 255, 0.12)',
+      glassShadow: '0 12px 40px 0 rgba(0, 0, 0, 0.45)',
+      accent: '#D9D7FF',
+      accentGlow: 'rgba(217, 215, 255, 0.25)',
+      textPrimary: '#FFFFFF',
+      textSecondary: '#A6A8B7',
+    },
+    light: {
+      background: '#F4F5FA',
+      surface: '#FFFFFF',
+      glassLayer: 'rgba(229, 231, 240, 0.65)',
+      glassBorder: 'rgba(255, 255, 255, 0.85)',
+      glassShadow: '0 8px 32px 0 rgba(100, 110, 140, 0.12)',
+      accent: '#625BCE',
+      accentGlow: 'rgba(98, 91, 206, 0.25)',
+      textPrimary: '#171824',
+      textSecondary: '#77798B',
+    },
+  },
+  accents: [
+    { name: 'Default Lilac', dark: '#D9D7FF', light: '#625BCE' },
+    { name: 'Electric Violet', dark: '#C084FC', light: '#7E22CE' },
+    { name: 'Cyan Neon', dark: '#38EF7D', light: '#059669' },
+    { name: 'Amber Gold', dark: '#FBBF24', light: '#D97706' },
+    { name: 'Rose Quartz', dark: '#FB7185', light: '#E11D48' },
+    { name: 'Ocean Azure', dark: '#38BDF8', light: '#0284C7' },
+  ],
+  radius: {
+    large: '26px',
+    medium: '20px',
+    small: '14px',
+    pill: '9999px',
+    miniPlayer: '24px',
+    bottomBar: '32px',
+    dialog: '24px',
+  },
+};

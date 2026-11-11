@@ -1,0 +1,6 @@
+{
+  "name": "Liquid Glass Music Player",
+  "description": "Apple iOS 26 Liquid Glass inspired Music Player with Poweramp-grade audio engine, 10-band EQ, real-time visualization, synchronized lyrics, and local library management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
